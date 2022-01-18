@@ -17,6 +17,17 @@ Here are basic parameters of the contest:
 
 7.  Students and TAs can nominate a winner (via a forthcoming Google Form), but the instructors will pick the winner.
 
-8.  We will set up a Git repo for students to "submit" their solutions, and to look at the other submissions, in the coming few days.
+8.  Any content put into this Git repo will be automatically licensed under GPL 3, and may be used in future years when teaching CMPUT 275.
 
-9.  Any content put into the Git repo will be automatically licensed under GPL 3, and may be used in future years when teaching CMPUT 275.
+9.  All submissions to the contest must be done via *pull requests* (PR) to this **public** Git repo:
+
+	https://github.com/paullu-teach/C275.CPP.Intro.Labs.2022.git
+
+10. We recommend using the "Forking Workflow" model described at:
+	https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow
+
+	See "Forking Workflow With Pull Requests" at:
+	https://www.atlassian.com/git/tutorials/making-a-pull-request
+
+11. The first PR should be for a README.md file of the form: ID/<id>/README.md (see ID/paullu/README.md), where <id> is the CCID of the student.
+
