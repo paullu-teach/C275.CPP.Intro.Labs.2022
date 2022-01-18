@@ -29,6 +29,6 @@ Here are basic parameters of the contest:
 	See "Forking Workflow With Pull Requests" at:
 	https://www.atlassian.com/git/tutorials/making-a-pull-request
 
-11. The first PR should be for a README.md file of the form: ID/<CCID>/README.md (see ID/paullu/README.md), where <CCID> is the CCID of the student.  If you do NOT want to use your CCID, contact Paul Lu.
+11. The first PR should be for a README.md file of the form: ID/"CCID"/README.md (see ID/paullu/README.md), where "CCID" is the CCID of the student.  If you do NOT want to use your CCID, contact Paul Lu.
 
-By convention:  You can only write (i.e., via PR) into your "ID/<CCID>" directory, but everyone can read all files (per GPL 3.0)
+By convention:  You can only write (i.e., via PR) into your "ID/"CCID"" directory, but everyone can read all files (per GPL 3.0)
