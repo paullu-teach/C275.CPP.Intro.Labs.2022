@@ -2,7 +2,7 @@
 
 ## Goal
 
-The goal of this lab is to find B in the formula R = (A + B) / 2 given R and A.
+The goal of this lab is to find B in the formula R = (A + B) / 2 given A and then R.
 
 ## Example
 
