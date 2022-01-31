@@ -6,6 +6,15 @@ This lab can be found [here](https://open.kattis.com/problems/hello) if you woul
 
 The goal of this lab is to print `Hello World`
 
+## Example
+
+```
+# I represents input and O represents output
+
+I > make run
+O > Hello World!
+```
+
 ## Running
 
 - This lab can be ran using `make run`
