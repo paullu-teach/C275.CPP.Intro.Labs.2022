@@ -11,7 +11,7 @@ int main()
 {
     // Task 1 (Lab 1) - First Kattis Problem 
     // We use cout to print Hello World! to the terminal
-    cout << "Hello World!";
+    cout << "Hello World!" << endl;
     
     return 0; // we return 0, since main is of type int
 }
