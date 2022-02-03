@@ -7,7 +7,7 @@ Solutions to C++ intro labs from 2022
  - List of some fairly trivial problems that are not included in the repo:
 	 - Section-3 Exercises
 	 - 5.3.4 Exercise: "Palindrome Checking Part 2"
-	 - Section-7 Exercises
+	 - Section-7
 	
 ## Running Instructions:
 
