@@ -2,7 +2,7 @@
 
 int main()
 {   
-    // question instruction specify a
+    // problem instructions specify a
     // range of (-1000,1000) for input
     short int x, y;
 
