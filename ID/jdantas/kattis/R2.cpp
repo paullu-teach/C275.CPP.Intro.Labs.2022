@@ -12,7 +12,7 @@ int main()
 
     R2 = ( 2 * S ) - R1; // This calculates the value of R2
 
-    cout << R2; // We output the value of R2
+    cout << R2 << endl; // We output the value of R2
     
     return 0;
 }    
