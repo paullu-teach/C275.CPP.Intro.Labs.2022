@@ -40,7 +40,7 @@ int main()
 
     std::map<int, int> attack, defense, health;
 
-    // gets input and adds to stat arrays
+    // gets input and inserts to stat arrays;
     // assign unique value to each set of stats 
     // to find duplicates later
     for (int i = 0; i<n; i++)
