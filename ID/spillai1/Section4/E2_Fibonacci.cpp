@@ -16,10 +16,10 @@ void fibonacci(int n)
         std::cout << t1 << std::endl;
         // shifting terms to the left to get rid of
         // sequence term that has already been printed;
-        // t1 <- t2, t2 <- t3, t3 = t1+t2
+        // t1 <- t2, t2 <- t3
         t1 = t2;
         t2 = t3;
-        // new term becomes sum of previous terms
+        // new term of sequence becomes sum of previous terms
         t3 = t1+t2;
     }
     return;
