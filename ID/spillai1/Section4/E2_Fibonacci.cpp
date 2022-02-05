@@ -14,8 +14,9 @@ void fibonacci(int n)
     for (int i = 0; i<n; i++)
     {   
         std::cout << t1 << std::endl;
-        // shifting terms to the left to get rid off
-        // printed term
+        // shifting terms to the left to get rid of
+        // sequence term that has already been printed;
+        // t1 <- t2, t2 <- t3, t3 = t1+t2
         t1 = t2;
         t2 = t3;
         // new term becomes sum of previous terms
