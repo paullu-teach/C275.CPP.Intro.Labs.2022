@@ -2,7 +2,7 @@
 
 int powerOf(int a, int b)
 {
-	/*
+    /*
     Description: Returns a raised to the power of b 
 
     Arguments:
@@ -17,16 +17,16 @@ int powerOf(int a, int b)
 
     for (int i = 0; i<b; i++)
     {
-    	ans = ans*a;
+        ans = ans*a;
     }
     return ans;
 }
 
 int main()
 {
-	int x, y;
+    int x, y;
 
-	std::cin >> x >> y;
-	std::cout << powerOf(x, y) << std::endl;
-	return 0;
+    std::cin >> x >> y;
+    std::cout << powerOf(x, y) << std::endl;
+    return 0;
 }
