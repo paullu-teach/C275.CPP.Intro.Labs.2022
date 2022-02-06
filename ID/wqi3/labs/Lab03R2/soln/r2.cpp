@@ -1,9 +1,3 @@
-/**
- * Lab 3 - R2
- * The purpose of this lab is to find the variable B in the equation (A + B) / 2 = S, given S and A
- * This can be found via: B = (S * 2) - A
-*/
-
 #include <iostream>
 
 using namespace std;

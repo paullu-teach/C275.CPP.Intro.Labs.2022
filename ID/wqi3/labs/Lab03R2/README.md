@@ -1,5 +1,7 @@
 # Lab 03 - R2
 
+This lab can be found [here](https://open.kattis.com/problems/r2) if you would like to give it a try yourself.
+
 ## Goal
 
 The goal of this lab is to find B in the formula R = (A + B) / 2 given A and then R.

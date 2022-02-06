@@ -1,8 +1,3 @@
-/**
- * Lab 2 - Sum of Two Inputs
- * The purpose of this lab is to print the sum of the two integers given.
-*/
-
 #include <iostream>
 
 using namespace std;
