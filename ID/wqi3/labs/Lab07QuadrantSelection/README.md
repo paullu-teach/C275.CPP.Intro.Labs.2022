@@ -1,5 +1,7 @@
 # Lab 07 - Quadarant Selection
 
+This lab can be found [here](https://open.kattis.com/problems/quadrant) if you would like to give it a try yourself.
+
 ## Goal
 
 The goal of this lab is to output the quadrant of the given coordinates.
