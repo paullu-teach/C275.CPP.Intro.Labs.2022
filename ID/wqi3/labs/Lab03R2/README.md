@@ -16,6 +16,11 @@ I > 11 15
 O > 19
 ```
 
+**Explaination**
+- Using the equation given, `(11 + B) / 2 = 15`
+- We can change this to `15 * 2 - 11 = B`
+- This shows that `B = 19`
+
 ## Running
 
 - This lab can be ran using `make run`

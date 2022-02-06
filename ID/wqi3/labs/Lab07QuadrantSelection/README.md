@@ -18,8 +18,7 @@ O > 1
 ```
 
 **Explaination**
-
-`10` and `6` can be converted to coordinates as `(10, 6)`. Given the quadrants, this is in quadrant `1` when graphed.
+- `10` and `6` can be converted to coordinates as `(10, 6)`. Given the quadrants, this is in quadrant `1` when graphed.
 
 ## Running
 

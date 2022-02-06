@@ -17,10 +17,10 @@ O > 27
 ```
 
 **Explaination**
-`25`'s digits combined are `2 + 5 = 7`. `25 % 7 != 0`, therefore it is not evenly divisible.
-`26`'s digits combined are `2 + 6 = 8`, `26 % 8 != 0`, therefore it is not evenly divisible.
-`27`'s digits combined are `2 + 7 = 9`, `27 % 9 == 0`, therefore it IS evenly divisble.
-Therefore we output 27.
+- `25`'s digits combined are `2 + 5 = 7`. `25 % 7 != 0`, therefore it is not evenly divisible.
+- `26`'s digits combined are `2 + 6 = 8`, `26 % 8 != 0`, therefore it is not evenly divisible.
+- `27`'s digits combined are `2 + 7 = 9`, `27 % 9 == 0`, therefore it IS evenly divisble.
+- Therefore we output 27.
 
 ## Running
 

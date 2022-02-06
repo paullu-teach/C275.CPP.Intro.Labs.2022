@@ -18,10 +18,9 @@ O > 6
 ```
 
 **Explaination**
-
-There is `1` factorial we are checking for, which is `3`.
-`3 * 2 * 1 = 6`
-Since the last digit in `6` is `6`, we print out `6`.
+- There is `1` factorial we are checking for, which is `3`.
+- `3 * 2 * 1 = 6`
+- Since the last digit in `6` is `6`, we print out `6`.
 
 ## Running
 

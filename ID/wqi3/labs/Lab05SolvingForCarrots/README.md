@@ -19,10 +19,9 @@ O > 1
 ```
 
 **Explaination**
-
-There are `2` contestants and `1` problem was solved.
-Therefore, since each problem solved = 1 carrot, 1 carrot was given out.
-The descriptions are useless clutter in this question.
+- There are `2` contestants and `1` problem was solved.
+- Therefore, since each problem solved = 1 carrot, 1 carrot was given out.
+- The descriptions are useless clutter in this question.
 
 ## Running
 

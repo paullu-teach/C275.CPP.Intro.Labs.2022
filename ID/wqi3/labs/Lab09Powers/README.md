@@ -15,8 +15,7 @@ O > 100
 ```
 
 **Explainaton**
-
-`10` to the power of `2` is `100`.
+- `10` to the power of `2` is `100`.
 
 ## Running
 
