@@ -7,8 +7,9 @@ int main() {
     int b;
     int c;
 
-    cin >> a >> b >> c; // take input
-    float average = (a + b + c) / 3.0;  // get average
+    cin >> a >> b >> c; // take the 3 integers to get the average of...
+    
+    float average = (a + b + c) / 3.0;  // divide them by 3 to get the average! 
 
     cout << average << endl;
     

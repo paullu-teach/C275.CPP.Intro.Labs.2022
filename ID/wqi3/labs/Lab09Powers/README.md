@@ -14,6 +14,10 @@ I > 10 2
 O > 100
 ```
 
+**Explainaton**
+
+`10` to the power of `2` is `100`.
+
 ## Running
 
 - This lab can be ran using `make run`

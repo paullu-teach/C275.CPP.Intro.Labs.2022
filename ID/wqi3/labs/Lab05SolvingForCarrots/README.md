@@ -4,7 +4,7 @@ This lab can be found [here](https://open.kattis.com/problems/carrots) if you wo
 
 ## Goal
 
-The goal of this lab is find the amount of carrots given out.
+The goal of this lab is find the amount of carrots given out. A carrot is given for every problem solved.
 
 ## Example
 
@@ -17,6 +17,12 @@ I > description 1
 I > description 2
 O > 1
 ```
+
+**Explaination**
+
+There are `2` contestants and `1` problem was solved.
+Therefore, since each problem solved = 1 carrot, 1 carrot was given out.
+The descriptions are useless clutter in this question.
 
 ## Running
 

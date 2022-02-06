@@ -8,10 +8,7 @@ int main() {
     int problemsSolved;
     cin >> contestants >> problemsSolved;
 
-    for (int i = 0; i < contestants; i++) {
-        string description;
-        cin >> description;
-    }
+    // There is no need to process the descriptions because they're pointless to the question.
 
     // the amount of carrots handed out is the amount of problems completed. (1 problem completion = 1 carrot)
     cout << problemsSolved << endl;

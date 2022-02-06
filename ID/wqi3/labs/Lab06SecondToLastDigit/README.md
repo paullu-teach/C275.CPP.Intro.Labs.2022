@@ -14,6 +14,10 @@ I > 223151874
 O > 7
 ```
 
+**Explaination**
+
+The second to last digit in `223151874` is `7`.
+
 ## Running
 
 - This lab can be ran using `make run`

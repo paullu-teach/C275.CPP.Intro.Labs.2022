@@ -15,8 +15,8 @@ int main() {
     cin >> input;
 
     int currentGuess = input;
-    while (true) {
-        int sum = getSum(currentGuess);
+    while (true) {  // We keep going until we find an answer!
+        int sum = getSum(currentGuess); // get the sum of the digits
 
         if (currentGuess % sum == 0) {
             // evenly divisible!
@@ -24,7 +24,7 @@ int main() {
             break;
         }
         
-        currentGuess++;
+        currentGuess++; // go to the next number and try it!
     }
 
     return 0;
