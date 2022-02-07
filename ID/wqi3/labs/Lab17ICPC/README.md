@@ -1,5 +1,7 @@
 # Lab 17 - ICPC
 
+This lab can be found [here](https://open.kattis.com/problems/icpcawards) if you would like to give it a try yourself.
+
 ## Goal
 
 The goal of this lab is to print all unique teams.
