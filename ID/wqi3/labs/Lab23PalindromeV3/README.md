@@ -1,4 +1,4 @@
-# Lab 14 - Palindrome Checking V2
+# Lab 23 - Palindrome Checking V3
 
 ## Goal
 
