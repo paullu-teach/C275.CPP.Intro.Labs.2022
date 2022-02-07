@@ -11,6 +11,3 @@ Public Directory of William Qi (wqi3@ualberta.ca)
 - Navigate to the directory of your choosing in your terminal
 - Run `make run` to run the code and enter your own input
 - Run `make tests` to run the test cases for that specific lab
-
-## Missing Labs
-IWannaBe & Cake - I was unable to figure out how to solve these in time unfortunately.
