@@ -4,9 +4,19 @@ using namespace std;
 
 int main() {
     // Take in the input
-    int characters;
-    string strToCheck;
-    cin >> characters >> strToCheck;
+    int unparsedCharacters; // string length including spaces
+    cin >> unparsedCharacters;
+
+    // We need to filter out the spaces
+    char strToCheck[unparsedCharacters];
+    int characters = 0; // amount of non space characters
+    for (int i = 0; i < unparsedCharacters; i++) {
+        char letter;
+        cin >> letter;
+        if (letter != ' ') {    // if the letter isn't a space, add it to the string to check!
+            strToCheck[characters++] = letter;
+        }
+    }
 
     // Create a pointer at the beginning and end of the string.
     char *beginning = &strToCheck[0];
