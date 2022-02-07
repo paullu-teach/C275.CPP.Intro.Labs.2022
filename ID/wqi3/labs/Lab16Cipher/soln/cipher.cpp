@@ -11,13 +11,10 @@ using namespace std;
 char shiftByThree(char letter);
 
 int main() {
-    int characters;
-    cin >> characters;
+    string word;
+    cin >> word;
 
-    for (int i = 0; i < characters; i++) {
-        char character;
-        cin >> character;
-
+    for (char character : word) {
         cout << shiftByThree(character);
     }
     cout << endl;

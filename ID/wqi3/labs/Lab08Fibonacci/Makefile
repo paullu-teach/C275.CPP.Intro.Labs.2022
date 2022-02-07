@@ -6,8 +6,8 @@ run: build
 	$(MAKE) clean
 
 tests: build
-	chmod u+x ../../tests/run_tests.py
-	python3 ../../tests/run_tests.py "./tests" "./build/$(FILE_NAME)"
+	chmod u+x ../../tests/app.js
+	node ../../tests/app.js "./tests" "./build/$(FILE_NAME)"
 	$(MAKE) clean
 
 build:
