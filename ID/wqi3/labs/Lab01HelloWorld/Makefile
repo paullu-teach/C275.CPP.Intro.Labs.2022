@@ -1,14 +1,15 @@
 # FILE_NAME represents the solution file name found in ./soln (without the .cpp header)
 FILE_NAME=hello_world
+CLEAN=$(MAKE) -s clean
 
 run: build
 	./build/$(FILE_NAME)
-	$(MAKE) clean
+	$(CLEAN)
 
 tests: build
 	chmod u+x ../../tests/app.js
 	node ../../tests/app.js "./tests" "./build/$(FILE_NAME)"
-	$(MAKE) clean
+	$(CLEAN)
 
 build:
 	mkdir -p build
