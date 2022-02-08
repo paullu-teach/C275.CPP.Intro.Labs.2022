@@ -8,7 +8,7 @@ int main() {
     // the key is the translation word, whereas the value is the english word
     unordered_map<string, string> dictionary;
 
-    // First... let's construct the dictionary.
+    // First... let's construct the translation dictionary.
     string line;
     while (getline(cin, line)) {
         if (line == "") {

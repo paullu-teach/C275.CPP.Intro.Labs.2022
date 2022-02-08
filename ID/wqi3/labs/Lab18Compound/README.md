@@ -21,5 +21,5 @@ O > bba
 
 ## Running
 
-- This lab can be ran using `make run`
+- This lab **CANNOT** be ran using `make run`. It is better to run this via Kattis as the usage of `while (cin >> ...)` blocks command line input from running properly.
 - The test cases defined for this lab can be ran using `make tests`

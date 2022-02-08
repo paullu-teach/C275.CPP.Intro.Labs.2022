@@ -9,7 +9,10 @@ using namespace std;
  * @param r r variable
  * @return the b variable
  */
-int findB(int a, int r);
+int findB(int a, int r) {
+    // Solving for B given the formula gives us (result * 2) - a
+    return (r * 2) - a;
+}
 
 int main() {
     int a = 0;
@@ -23,9 +26,4 @@ int main() {
     cout << findB(a, result) << endl;
     
     return 0;
-}
-
-int findB(int a, int r) {
-    // Solving for B given the formula gives us (result * 2) - a
-    return (r * 2) - a;
 }

@@ -1,0 +1,5 @@
+4
+ABC
+AAB
+ADE
+AAA

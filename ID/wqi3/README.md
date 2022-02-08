@@ -9,5 +9,5 @@ Public Directory of William Qi (wqi3@ualberta.ca)
 
 ## How To Run a Lab
 - Navigate to the directory of your choosing in your terminal
-- Run `make run` to run the code and enter your own input
+- Run `make run` to run the code and enter your own input (unless otherwise stated in its respective `README.md`)
 - Run `make tests` to run the test cases for that specific lab

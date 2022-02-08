@@ -8,7 +8,17 @@ using namespace std;
  * @param letter the letter
  * @return shifted letter
  */
-char shiftByThree(char letter);
+char shiftByThree(char letter) {
+    char shiftedChar = (letter + 3);
+    bool needsToWrap = shiftedChar > 'z';
+    
+    if (needsToWrap) {
+        int excess = shiftedChar - 'z'; // how many characters is this out of bounds by?
+        shiftedChar = 'a' + (excess - 1);
+    }
+
+    return shiftedChar;
+}
 
 int main() {
     string word;
@@ -20,15 +30,4 @@ int main() {
     cout << endl;
 
     return 0;
-}
-
-char shiftByThree(char letter) {
-    char shiftedChar = (letter + 3);
-    bool needsToWrap = shiftedChar > 'z';
-    
-    if (needsToWrap) {
-        shiftedChar = 'a' + (shiftedChar - 'z' - 1);
-    }
-
-    return shiftedChar;
 }

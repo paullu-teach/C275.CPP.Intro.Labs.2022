@@ -30,7 +30,7 @@ bool isInventoryItem(char letter);
  * @return true if it is the correct inventory item
  * @return false if it is the wrong inventory item
  */
-bool isCorrectInventoryItem(char inventoryChar, char traderChar);
+bool isDesiredInventoryItem(char inventoryChar, char traderChar);
 
 int main() {
     int adventures;
@@ -74,7 +74,7 @@ bool tryAdventure(string adventure) {
 
             // see if the latest item we picked up is useful to the trader
             char latestInventoryItem = inventory.top();
-            if (!isCorrectInventoryItem(latestInventoryItem, letter)) {
+            if (!isDesiredInventoryItem(latestInventoryItem, letter)) {
                 // the item was not useful
                 return false;
             }
@@ -95,7 +95,7 @@ bool isInventoryItem(char letter) {
     return letter == '|' || letter == '*' || letter == '$';
 }
 
-bool isCorrectInventoryItem(char inventoryChar, char traderChar) {
+bool isDesiredInventoryItem(char inventoryChar, char traderChar) {
     switch (inventoryChar) {
         case '|':
             return traderChar == 't';

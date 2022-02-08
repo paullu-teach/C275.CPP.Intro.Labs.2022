@@ -5,17 +5,15 @@
 
 using namespace std;
 
-int main() {
-    // Collect all unique words to combine
-    unordered_set<string> words;
-    string word;
-    while (cin >> word) {
-        words.insert(word);
-    }
-
-    // Collect all unique combinations of words
+/**
+ * @brief Collect all unique compounds of the words in the set given and return it as a vector
+ * 
+ * @param words the words to compound
+ * @return vector<string> vector containing all compound words 
+ */
+vector<string> getCompounds(unordered_set<string> words) {
     unordered_set<string> usedCompounds;    // ensure that we do not add any duplicates to compounds
-    vector<string> compounds;               // used later on to be sorted before outputted
+    vector<string> compounds;               // returned vectory
     for (string word : words) {
         for (string otherWord : words) {
             if (word != otherWord) {    // the same word cannot be compounded with itself.
@@ -28,6 +26,19 @@ int main() {
             }
         }
     }
+
+    return compounds;
+}
+
+int main() {
+    // Collect all unique words to combine
+    unordered_set<string> words;
+    string word;
+    while (cin >> word) {
+        words.insert(word);
+    }
+
+    vector<string> compounds = getCompounds(words);
 
     // print out all compounds in order!
     sort(compounds.begin(), compounds.end());
