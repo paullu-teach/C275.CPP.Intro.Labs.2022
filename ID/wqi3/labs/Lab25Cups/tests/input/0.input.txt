@@ -1,0 +1,4 @@
+3
+10 blue
+orange 6
+yellow 2
