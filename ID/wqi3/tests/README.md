@@ -6,3 +6,16 @@ However, it requires a little work to setup given that it is in Node.js and the 
 ## Setup
 
 - `sudo apt-get install nodejs`
+
+## Usage
+- `node app.js "path to tests directory" "command to run (e.g. a path to an executable)"`
+- The file structure of the tests directory must look like the below
+```
+# As a note, # MUST start from 0
+
+tests/
+    input/
+        #.input.txt
+    expected/
+        #.output.txt
+```

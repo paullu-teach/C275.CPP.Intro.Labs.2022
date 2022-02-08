@@ -1,6 +1,9 @@
 const fs = require('fs');
 const childProcess = require('child_process');
 
+/**
+ * Representative of a singular test
+ */
 class Test {
 
     constructor(inputPath, outputPath) {
@@ -8,6 +11,11 @@ class Test {
         this.output = fs.readFileSync(outputPath, 'utf8');
     }
 
+    /**
+     * Runs the executable file given
+     * @param {string} exePath path to executable
+     * @returns if the test succeeded.
+     */
     run(exePath) {
         return new Promise(resolve => {
             const process = childProcess.spawn(exePath);
